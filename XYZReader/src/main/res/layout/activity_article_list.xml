@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
@@ -32,7 +34,7 @@
         android:elevation="8dp">
 
         <android.support.design.widget.AppBarLayout
-            android:id="@+id/toolbar"
+            android:id="@+id/appbarlayout"
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
@@ -44,6 +46,13 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/logo_yellow"
                 android:contentDescription="@string/app_name" />
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toolbar"/>
+
+
 
         </android.support.design.widget.AppBarLayout>
     </FrameLayout>
